@@ -27,7 +27,7 @@ body {
   border-radius: 50px;
   background-size: cover;
   cursor: pointer;
-  flex: 0.5;
+  flex-grow: 0.5;
   margin: 10px;
   position: relative;
   transition: flex 0.7s ease-in;
@@ -43,7 +43,7 @@ body {
   transition: opacity 1s ease-in;
 }
 .panel.active {
-  flex: 5;
+  flex-grow: 5;
 }
 .panel.active h3 {
   opacity: 1;
