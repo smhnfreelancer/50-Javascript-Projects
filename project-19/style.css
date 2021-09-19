@@ -137,3 +137,7 @@ body {
 .no-tansition {
     transition: none !important;
 }
+
+.invisibility {
+    visibility: none;
+}
